@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# RFP 원본 데이터 (보안)
+data/
+*.hwp
+*.hwpx
+
+# 모델 / 벡터 DB 캐시
+*.faiss
+*.pkl
+chroma_db/
