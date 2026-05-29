@@ -154,7 +154,7 @@ OPENAI_API_KEY=your_openai_api_key_here
 
 ## 📁 평가 데이터셋
 
-- **파일명**: `eval_qa_combined_500.xlsx`
+- **파일명**: `pm_data.xlsx`
 - **규모**: 500개 QA 쌍 (Q001–Q500)
 - **생성 방식**: GPT-4o 자동 생성 → 팀 수동 검수
 - **범위**: eval_batch 01–25 (강사 가이드라인 기준)
