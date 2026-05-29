@@ -218,7 +218,11 @@ __marimo__/
 .streamlit/secrets.toml
 
 # RFP 원본 데이터 (보안)
-data/
+data/files_advanced/
+data/embeddings.npy
+data/chroma_export.json
+data/chunks_data.json
+data/original_data_list.zip
 *.hwp
 *.hwpx
 
