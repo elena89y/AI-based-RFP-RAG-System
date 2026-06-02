@@ -1,0 +1,12 @@
+streamlit
+plotly
+openpyxl
+pandas
+chromadb
+sentence-transformers>=3.0.0
+rank_bm25
+rapidfuzz
+FlagEmbedding
+openai
+ollama
+langchain-ollama
