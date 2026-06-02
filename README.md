@@ -15,8 +15,8 @@
 </p>
 
 <p align="center">
-  <a href="https://www.notion.so/AI8-_-_1-RFP-X-35e1fffab02c80d9ae52daa9a6b5fa5a"> 📋 협업노트/회의록 & 프로젝트 가이드</a>
-  　[팀 보고서 PDF]()
+  <a href="https://www.notion.so/AI8-_-_1-RFP-X-35e1fffab02c80d9ae52daa9a6b5fa5a">📋 협업노트/회의록 & 프로젝트 가이드</a>
+  　<a href="./RFP-X_최종보고서_Team1_v8.pdf">📄 팀 보고서 PDF</a>
 </p>
 
 ---
@@ -41,12 +41,16 @@
 ```
 AI-based-RFP-RAG-System/
 │
-├── data/                        # 원본 RFP 문서 및 전처리 데이터
+├── data/                           # 원본 RFP 문서 및 전처리 데이터
 │
-├── final_data_01.ipynb          # 데이터 수집 및 전처리 파이프라인 (정설아·정봄)
-├── prom09.ipynb                 # 프롬프트 엔지니어링 및 Generation 파이프라인 (박민성)
-├── final_code_com_03.ipynb      # 통합 평가 파이프라인 (박민성)
-├── retrieval_V12.ipynb          # RAG 검색 파이프라인 최종 (박찬영)
+├── final_data_01.ipynb             # HWP/PDF 파싱, 청킹, ChromaDB 구축 (정설아·정봄)
+├── retrieval_V9.ipynb              # Retrieval 파이프라인 (박찬영)
+├── prom09.ipynb                    # 프롬프트 엔지니어링 및 Generation 파이프라인 (박민성)
+├── final_code_com_03.ipynb         # 통합 평가 파이프라인 (박민성)
+├── com_02.ipynb                    # 평가 데이터셋 통합 및 검수
+├── generation_final_report.md      # Generation 파트 실험 보고서
+├── project_code_guide.md           # 프로젝트 코드 실행 가이드
+├── RFP-X_최종보고서_Team1_v8.pdf   # 최종 프로젝트 보고서
 │
 ├── .gitignore
 └── README.md
@@ -116,10 +120,10 @@ ollama pull hf.co/lmstudio-community/EXAONE-3.5-7.8B-Instruct-GGUF
 ### 3. 실행 순서
 
 ```
-1. final_data_01.ipynb        → HWP/PDF 파싱, 청킹, ChromaDB 구축
-2. retrieval_V12.ipynb        → Hybrid Search 검색 파이프라인 실행
-3. prom09.ipynb               → 프롬프트 설계 및 Generation 파이프라인
-4. final_code_com_03.ipynb    → 통합 평가 파이프라인 (RAGAS + 커스텀 지표)
+1. final_data_01.ipynb          → HWP/PDF 파싱, 청킹, ChromaDB 구축
+2. retrieval_V9.ipynb           → Hybrid Search 검색 파이프라인 실행
+3. prom09.ipynb                 → 프롬프트 설계 및 Generation 파이프라인
+4. final_code_com_03.ipynb      → 통합 평가 파이프라인 (RAGAS + 커스텀 지표)
 ```
 
 ---
