@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/gemma4:e4b-Local_LLM-000000?style=flat-square&logo=google&logoColor=white"/>
+  <img src="https://img.shields.io/badge/gemma4:e4b-Ollama_Local-000000?style=flat-square&logo=ollama&logoColor=white"/>
   <img src="https://img.shields.io/badge/ChromaDB-Vector_DB-FF6B35?style=flat-square"/>
   <img src="https://img.shields.io/badge/Qwen3-Embedding-412991?style=flat-square"/>
   <img src="https://img.shields.io/badge/RAGAS-Evaluation-009ACD?style=flat-square"/>
