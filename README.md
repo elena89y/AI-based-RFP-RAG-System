@@ -42,6 +42,7 @@
 AI-based-RFP-RAG-System/
 │
 ├── data/                           # 원본 RFP 문서 및 전처리 데이터
+├── service/                        # Streamlit BidMate 서빙 코드
 │
 ├── final_data_01.ipynb             # HWP/PDF 파싱, 청킹, ChromaDB 구축 (정설아·정봄)
 ├── retrieval_V9.ipynb              # Retrieval 파이프라인 (박찬영)
@@ -124,6 +125,7 @@ ollama pull hf.co/lmstudio-community/EXAONE-3.5-7.8B-Instruct-GGUF
 2. retrieval_V9.ipynb           → Hybrid Search 검색 파이프라인 실행
 3. prom09.ipynb                 → 프롬프트 설계 및 Generation 파이프라인
 4. final_code_com_03.ipynb      → 통합 평가 파이프라인 (RAGAS + 커스텀 지표)
+5. service/                     → Streamlit BidMate UI 실행
 ```
 
 ---
