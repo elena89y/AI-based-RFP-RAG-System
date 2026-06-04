@@ -16,7 +16,7 @@
 
 <p align="center">
   <a href="https://www.notion.so/AI8-_-_1-RFP-X-35e1fffab02c80d9ae52daa9a6b5fa5a">📋 협업노트/회의록 & 프로젝트 가이드</a>
-  　<a href="https://github.com/elena89y/AI-based-RFP-RAG-System/blob/main/RFP-X_%EC%B5%9C%EC%A2%85%EB%B3%B4%EA%B3%A0%EC%84%9C_Team1_v8.pdf">📄 팀 보고서 PDF</a>
+  　<a href="https://github.com/elena89y/AI-based-RFP-RAG-System/blob/main/RFP-X_%EC%B5%9C%EC%A2%85%EB%B3%B4%EA%B3%A0%EC%84%9C_Team1_v9.pdf">📄 팀 보고서 PDF</a>
 </p>
 
 ---
@@ -50,7 +50,7 @@ AI-based-RFP-RAG-System/
 ├── com_02.ipynb                    # 평가 데이터셋 통합 및 검수
 ├── generation_final_report.md      # Generation 파트 실험 보고서
 ├── project_code_guide.md           # 프로젝트 코드 실행 가이드
-├── RFP-X_최종보고서_Team1_v8.pdf   # 최종 프로젝트 보고서
+├── RFP-X_최종보고서_Team1_v9.pdf   # 최종 프로젝트 보고서
 │
 ├── .gitignore
 └── README.md
