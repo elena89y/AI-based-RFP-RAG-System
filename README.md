@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/Qwen3-Embedding-412991?style=flat-square"/>
   <img src="https://img.shields.io/badge/RAGAS-Evaluation-009ACD?style=flat-square"/>
 </p>
-
+ 
 <p align="center">
   <b>AI8기 중급 프로젝트 | Team 1</b><br/>
   AI-based RFP RAG System for public procurement document analysis <br><br>
